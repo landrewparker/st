@@ -96,32 +96,32 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+        "#2e3440", /* black:   nord0 */
+        "#bf616a", /* red:     nord11 */
+        "#a3be8c", /* green:   nord14 */
+        "#ebcb8b", /* yellow:  nord13 */
+        "#81a1c1", /* blue:    nord9 */
+        "#b48ead", /* magenta: nord15 */
+        "#88c0d0", /* cyan:    nord8 */
+        "#e5e9f0", /* white:   nord5 */
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+        "#4c566a", /* black:   nord3 */
+        "#bf616a", /* red:     nord11*/
+        "#a3be8c", /* green:   nord14 */
+        "#ebcb8b", /* yellow:  nord13 */
+        "#81a1c1", /* blue:    nord9 */
+        "#b48ead", /* magenta: nord15 */
+        "#8fbcbb", /* cyan:    nord7 */
+        "#eceff4", /* white:   nord6 */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#d8dee9", /* nord4 */
+	"#4c566a", /* nord3 */
+	"#e5e9f0", /* white: nord5 (default foreground colour) */
+	"#2e3440", /* black: nord0 (default background colour) */
 };
 
 
